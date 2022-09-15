@@ -10,7 +10,12 @@ To run this code:
 
 - Download code from <https://github.com/cubing/twizzle-diaries/archive/refs/heads/main.zip> (or `git clone`, if you know how)
   - Unzip and enter the `ep4-scramble-demo` folder.
-- Start a web server. For example: `python3 -m http.server`
+- Start a web server. For example:
+  - If you're not familiar the commandline, consider something like [this Chrome extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related) to serve the folder.
+  - If you're familiar with the commandline, one of these may be convenient:
+    - Python 3: `python3 -m http.server`
+    - `node` & `npm`: `npx http-server`
+    - [`caddy`](https://caddyserver.com/): `caddy file-server --listen :8000 --browse`
 
 ## Changes from the video
 
